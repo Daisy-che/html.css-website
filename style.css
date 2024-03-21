@@ -1,0 +1,123 @@
+.sell{
+    display: flex;
+    gap: 150px;
+
+}
+button{
+    border-radius: 20px;
+    color: white;
+}
+.for{
+    text-align: center;
+}
+.pro{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+
+    
+}
+.for{
+    text-align: center;
+}
+.good{
+    display: flex;
+    gap: 65px;
+    justify-content: center;
+}
+#hos{
+    text-align: center;
+    
+    
+}
+.pop{
+    margin-left: 20%;
+}
+.rex{
+    display: flex;
+    gap: 20px;
+    margin-left: 20%;
+}
+.how{
+    display: flex;
+    margin-left: 20%;
+    gap: 50px;
+}
+.color{
+    text-align: center;
+}
+.us{
+    text-align: center;
+    display: flex;
+    margin-left: 20%;
+    gap: 50px;
+}
+.list{
+    display: flex;
+    gap: 20px;
+    margin-left: 20%;
+}
+.our{
+    display: flex;
+    gap: 50px;
+    margin-left: 20%;
+}
+.rent{
+    text-align: center;
+}
+.home{
+    display: flex;
+    gap: 50px;
+    margin-left: 20%;
+}.can{
+    display: flex;
+    gap: 80px;
+    
+}
+.use{
+    inline-size: 15%;
+}
+h1{
+    font-size: xx-large;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+@media  only screen and(max-width:768px){
+    .sell{
+        flex-wrap: wrap;
+        display: block;
+
+    }
+    #hos{
+       display: block; 
+    }
+   .pro{
+    flex-wrap: wrap;
+    margin: 10%;
+   }
+   .good{
+    flex-wrap: wrap;
+    margin: 10%;
+   }
+   .rex{
+    flex-wrap: wrap;
+    margin-left: 10%;
+   }
+   .how{
+    flex-wrap: wrap;
+   }
+   .us{
+    flex-wrap: wrap;
+   }
+   .list{
+    flex-wrap: wrap;
+   }
+   .our{
+    flex-wrap: wrap;
+   }
+   .home{
+    flex-wrap: wrap;
+   }
+    }
